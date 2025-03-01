@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Interactive Quiz</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+    <div class="quiz-container">
+        <h1>Web Development Quiz</h1>
+        
+        <div id="quiz">
+            <div class="timer-container">
+                Time remaining: <span class="timer" id="timer">60</span> seconds
+            </div>
+            
+            <div id="questions-container">
+                <!-- Questions will be dynamically generated here -->
+            </div>
+            
+            <button class="submit-btn" id="submit">Submit Quiz</button>
+        </div>
+        
+        <div id="results">
+            <div class="result-title">Quiz Results</div>
+            <div class="score" id="score"></div>
+            <div id="feedback"></div>
+            <button class="restart-btn" id="restart">Take Quiz Again</button>
+        </div>
+    </div>
+    
+    <script src="index.js"></script>
+</body>
+</html>
